@@ -1,0 +1,381 @@
+/*--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights
+Default: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700
+
+- Line heights
+Default: 1
+Small: 1.05
+Medium: 1.2
+Paragraph default: 1.6
+Large: 1.8
+
+- Letter spacing
+-0.5px
+0.75px
+
+--- 02 COLORS
+
+- Primary: 
+- Tints:
+
+
+- Shades: 
+
+
+- Accents:
+- Greys
+
+
+--- 05 SHADOWS
+
+
+--- 06 BORDER-RADIUS
+
+
+--- 07 WHITESPACE
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+.header {
+  background-color: #0d0241;
+  padding: 1.2rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  display: inline-block;
+  fill: #d0d0d0;
+  height: 1.8rem;
+  width: 1.8rem;
+}
+
+.main-link {
+  padding: 0 1rem;
+}
+
+.link-header:link,
+.link-header:visited {
+  text-decoration: none;
+  color: #d0d0d0;
+  font-size: 1.2rem;
+  padding: 0 1rem;
+  letter-spacing: 1px;
+  transition: all 0.5s;
+}
+
+.link-header:hover,
+.link-header:active {
+  color: #e7e7e7;
+}
+
+.ribbon-holiday {
+  max-width: 256rem;
+  margin: 0 auto;
+  background-color: #1dd186;
+  color: #fff;
+  font-size: 1.6rem;
+  padding: 2rem 0;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.link-shop:link,
+.link-shop:visited {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.link-shop:hover,
+.link-shop:active {
+  text-decoration: underline;
+}
+
+/* HERO SECTION */
+
+.hero-section {
+  max-width: 256rem;
+  margin: 0 auto;
+  background-color: #eaf2fc;
+  height: 65.7rem;
+  text-align: center;
+}
+
+.apple-logo-hero {
+  padding: 2.4rem 0 0 0;
+}
+
+.heading-hero-section {
+  color: #141414;
+}
+
+.hero-img {
+  height: 35rem;
+  display: block;
+  margin-bottom: 6.7rem;
+}
+
+/* IPHONE SECTION*/
+
+.iphone-text {
+  text-align: center;
+  margin-top: 6.7rem;
+}
+
+.heading-tertiary.heading-iphone-section {
+  margin-bottom: 1.6rem;
+}
+
+.container-first-phone {
+  margin-bottom: 1rem;
+}
+
+.iphone-1-container {
+  height: 30rem;
+  width: 100%;
+  text-align: center;
+}
+
+.iphone-1-img {
+  height: 100%;
+  width: 50rem;
+  object-fit: cover;
+  object-position: 0 0;
+}
+
+.container-text-2 {
+  padding-top: 4.7rem;
+}
+
+.container-second-phone {
+  max-width: 256rem;
+  margin: 0 auto;
+  background-color: #35283c;
+  height: 60.8rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.iphone-1-img {
+  height: 100%;
+  width: 50rem;
+  object-fit: cover;
+  object-position: 0 0;
+}
+
+.your-new-superpower {
+  color: #e2a6d2;
+  font-size: 2.8rem;
+  padding-bottom: 1rem;
+}
+
+.heading-iphone-13-standart {
+  color: #fff;
+}
+
+.iphone-2-img {
+  margin-top: 2rem;
+  height: 40rem;
+}
+
+/*SHOWUP*/
+
+.section-product-showup {
+  max-width: 256rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.container-img-showup {
+  height: 63.2rem;
+}
+
+.container-img-showup {
+  background-size: 80rem;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  bottom: 0;
+}
+
+.new-text-showup {
+  color: #bf4800;
+  size: 1.4rem;
+}
+
+.series-text-showup {
+  color: #e34140;
+  font-size: 1.8rem;
+  margin-top: -3px;
+}
+
+.container-img-showup1 {
+  background-color: #f5f5f7;
+  background-image: url("../img/applewatch.png");
+}
+
+.container-img-showup2 {
+  background-image: url("../img/airpods.png");
+  background-position: center top;
+  background-size: 70rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #fbfbfb;
+}
+
+.container-img-showup3 {
+  background-image: url("../img/talk.png");
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #fbfbfb;
+}
+
+.container-img-showup4 {
+  background-image: url("../img/mac boock.png");
+  background-size: 80rem;
+  background-color: #fbfbfb;
+}
+
+.container-img-showup5 {
+  background-image: url("../img/musicawards.png");
+  background-size: 50rem;
+  background-color: #fbfbfb;
+}
+
+.container-img-showup6 {
+  background-image: url("../img/christmas.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.showup-text {
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.showup-link:link,
+.showup-link:visited {
+  display: block;
+  color: #141414;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-item {
+  display: inline-block;
+  font-weight: 500;
+  vertical-align: center;
+}
+
+.logo-showup {
+  height: 2.8rem;
+  width: 2.8rem;
+  align-self: center;
+  vertical-align: center;
+}
+
+.showup-description {
+  font-size: 1.8rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.airpods-text {
+  margin-bottom: 3rem;
+}
+.talks-description {
+  margin-bottom: 7rem;
+  color: #fff;
+}
+
+.appletalks-title {
+  margin-right: 1rem;
+}
+
+.movies-description {
+  margin-top: 40rem;
+  color: #fff;
+}
+
+/*FOOTER*/
+
+.footer {
+  max-width: 256rem;
+  margin: 0 auto;
+  background-color: #eee;
+  height: auto;
+}
+
+.text-footer {
+  color: #555;
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+.border-bottom-footer {
+  border-bottom: 1px solid #bbb;
+}
+
+.border-bottom-footer p:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.link-blue-footer:link,
+.link-blue-footer:visited {
+  text-decoration: none;
+  color: #11719e;
+}
+
+.link-blue-footer:hover,
+.link-blue-footer:active {
+  text-decoration: underline;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+}
+
+.footer ul a:link,
+.footer ul a:visited {
+  text-decoration: none;
+  color: #444;
+}
+
+.footer ul li {
+  padding: 0 1rem;
+  border-right: 1px solid #ccc;
+}
+
+.country-selection:link,
+.country-selection:visited {
+  display: block;
+  color: #444;
+  text-decoration: none;
+  margin-left: auto;
+}
+
+.legal-section {
+  display: flex;
+  gap: 2rem;
+}

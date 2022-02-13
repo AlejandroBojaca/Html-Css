@@ -1,0 +1,40 @@
+@media (max-width: 68em) {
+  html {
+    font-size: 50%;
+  }
+  .heading-hero-section {
+    max-width: 50rem;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 47em) {
+  .section-product-showup {
+    grid-template-columns: 1fr;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav a:link:not(:first-child),
+  .nav a:visited:not(:first-child) {
+    display: none;
+  }
+
+  .legal-section a:link,
+  .legal-section a:visited {
+    order: 2;
+  }
+
+  .legal-section ul {
+    order: 3;
+    grid-column: span 2;
+  }
+
+  .legal-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
